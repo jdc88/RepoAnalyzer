@@ -24,7 +24,6 @@ import re                   # Regular expressions (re module)
 from pathlib import Path    # Path manipulations (Path)
 
 # Create hash maps: token -> (label, category)
-
 PACKAGE_KEYWORD_MAP = {
     # =============== Cloud & DevOps ===============
     "boto3": ("AWS (boto3)", "Cloud"),
