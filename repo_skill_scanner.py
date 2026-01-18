@@ -101,6 +101,16 @@ PACKAGE_KEYWORD_MAP = {
     "jwt": ("JWT Authentication", "Security"),
     "oauth": ("OAuth", "Security"),
     "bcrypt": ("bcrypt", "Security"),
+
+    # =============== GUI / Desktop Apps ===============
+    "tkinter": ("Tkinter", "GUI / Desktop"),
+    "pyqt5": ("PyQt5", "GUI / Desktop"),
+    "pyqt": ("PyQt", "GUI / Desktop"),
+    "pyside2": ("PySide2", "GUI / Desktop"),
+    "pyside6": ("PySide6", "GUI / Desktop"),
+    "wx": ("wxPython", "GUI / Desktop"),
+    "kivy": ("Kivy", "GUI / Desktop"),
+
 }
 
 KEYWORD_MAP = {
@@ -137,6 +147,14 @@ KEYWORD_MAP = {
     "oauth": ("OAuth", "Security"),
     "openid": ("OpenID Connect", "Security"),
     "saml": ("SAML", "Security"),
+
+    # =============== GUI / Desktop ===============
+    "tkinter": ("Tkinter", "GUI / Desktop"),
+    "pyqt5": ("PyQt5", "GUI / Desktop"),
+    "pyside": ("PySide", "GUI / Desktop"),
+    "wxpython": ("wxPython", "GUI / Desktop"),
+    "kivy": ("Kivy", "GUI / Desktop"),
+
 }
 
 MANIFEST_FILES = {
