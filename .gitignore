@@ -1,0 +1,22 @@
+# Ignore input/output files that may contain secrets
+repos.txt
+results.json
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (if you use one)
+venv/
+.env/
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
